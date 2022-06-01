@@ -61,7 +61,6 @@ def start():
         cGuess=check_number_exist(4)
         bull = 0
         cow = 0
-
         print('Computer guess :',*cGuess)
         if len(cGuess)==4:
             j=0
